@@ -1,30 +1,30 @@
 class Strapd < Formula
   desc "Developer utility belt for encoding, hashing, and data formatting tasks"
   homepage "https://github.com/dhwaneetbhatt/strapd"
-  version "1.2.0"
+  version "v1.3.0"
   license "Apache-2.0"
 
   on_macos do
     on_intel do
-      url "https://github.com/dhwaneetbhatt/strapd/releases/download/v1.2.0/strapd-macos-x86_64.tar.gz"
-      sha256 "40660eb299ba5345d18fa40c749ea77d5d590bb64217b6eb051d84ce457e5006"
+      url "https://github.com/dhwaneetbhatt/strapd/releases/download/v1.3.0/strapd-macos-x86_64.tar.gz"
+      sha256 "7f34aebcbef94e7b188e01952007de387d8ec0ca709e11290c9ddc01a4be705a"
     end
 
     on_arm do
-      url "https://github.com/dhwaneetbhatt/strapd/releases/download/v1.2.0/strapd-macos-aarch64.tar.gz"
-      sha256 "6072f38ac4a977b22a0844fe8aef0466bc805ccebf8ed0bb9f45ab0e84b11e3c"
+      url "https://github.com/dhwaneetbhatt/strapd/releases/download/v1.3.0/strapd-macos-aarch64.tar.gz"
+      sha256 "27312adc75ad2762868b90b854275019114c1e8ccfffd0d82aeaf3013436f1a0"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/dhwaneetbhatt/strapd/releases/download/v1.2.0/strapd-linux-x86_64.tar.gz"
-      sha256 "0eb2c43fde7afae3be942e59124ed92b06892e4397cdcb9cedc1743e4fd22cc3"
+      url "https://github.com/dhwaneetbhatt/strapd/releases/download/v1.3.0/strapd-linux-x86_64.tar.gz"
+      sha256 "49df41b3650aac9febc33fbcc7a8a6db50a3cce110ace3307cb2fd2b190fd15e"
     end
 
     on_arm do
-      url "https://github.com/dhwaneetbhatt/strapd/releases/download/v1.2.0/strapd-linux-aarch64.tar.gz"
-      sha256 "168e519960ef71c57cb57d6506c87c02b26eb4262ed0d1e49f5f0ed05ce0031a"
+      url "https://github.com/dhwaneetbhatt/strapd/releases/download/v1.3.0/strapd-linux-aarch64.tar.gz"
+      sha256 "6a0b0eab8e0b1bdf4d40efc85f0278bb651f71962fb2f1eeb8150e7842da0443"
     end
   end
 
