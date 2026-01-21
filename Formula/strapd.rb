@@ -1,7 +1,7 @@
 class Strapd < Formula
   desc "Developer utility belt for encoding, hashing, and data formatting tasks"
   homepage "https://github.com/dhwaneetbhatt/strapd"
-  version "v1.3.0"
+  version "1.3.0"
   license "Apache-2.0"
 
   on_macos do
